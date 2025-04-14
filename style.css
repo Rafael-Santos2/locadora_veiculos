@@ -35,4 +35,11 @@
     .btn-group-actions {
         flex-direction: column;
     }
+    .rent-group {
+        order: 2;
+        width: 100%;
+    }
+    .days-input{
+        width: 100%;
+    }
 }
