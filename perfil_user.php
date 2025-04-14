@@ -102,18 +102,20 @@
                                         <td>Carro</td>
                                         <td>
                                             <span>
-                                                <button class="btn btn-success p-0" data-bs-toggle="modal" data-bs-target="#fordgt">Ford GT 2008</button>
+                                                <button class="btn btn-success p-1" data-bs-toggle="modal" data-bs-target="#fordgt">Ford GT 2008</button>
                                             </span>
                                         </td>
                                         <td>OVI1N14</td>
                                         <td>
-                                            <span class="badge bg-success">Disponível</span>
+                                            <span>
+                                                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalDisponivelFordGT2008" style="padding: 2px;">Disponível</button>
+                                            </span>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>Carro</td>
                                         <td>
-                                            <span><button class="btn btn-warning p-0" data-bs-toggle="modal" data-bs-target="#modalcorsaclassic">Corsa Classic 2002</button></span>
+                                            <span><button class="btn btn-warning p-1" data-bs-toggle="modal" data-bs-target="#modalcorsaclassic">Corsa Classic 2002</button></span>
                                         </td>
                                         <td>RAF1N15</td>
                                         <td>
@@ -123,7 +125,7 @@
                                     <tr>
                                         <td>Moto</td>
                                         <td>
-                                            <span><button class="btn btn-warning p-0" data-bs-toggle="modal" data-bs-target="#modalHayabusa2016">Hayabusa 2016</button></span>
+                                            <span><button class="btn btn-warning p-1" data-bs-toggle="modal" data-bs-target="#modalHayabusa2016">Hayabusa 2016</button></span>
                                         </td>
                                         <td>JUL1A20</td>
                                         <td>
@@ -143,7 +145,7 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="fordgt">Detalhes de João</h5>
+                        <h5 class="modal-title" id="fordgt">Detalhes do Ford GT 2008</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
                     </div>
                     <div class="modal-body">
@@ -225,6 +227,48 @@
                             <li><strong>Tipo:</strong> Moto esportiva (Sport Touring)</li>
                             <li><strong>Destaques:</strong> Uma das motos mais rápidas do mundo, conhecida pela potência e estabilidade</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal de Solicitação - Ford GT 2008 -->
+        <div class="modal fade" id="modalDisponivelFordGT2008" tabindex="-1" aria-labelledby="modalDisponivelFordGT2008Label" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDisponivelFordGT2008Label">Ford GT 2008 disponível!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Preencha o formulário abaixo para demonstrar interesse:</p>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome completo</label>
+                                <input type="text" class="form-control" id="nome" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="numero" class="form-label">Número de telefone</label>
+                                <input type="tel" class="form-control" id="numero" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="cpf" class="form-label">CPF</label>
+                                <input type="text" class="form-control" id="cpf" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="rg" class="form-label">RG</label>
+                                <input type="text" class="form-control" id="rg" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="endereco" class="form-label">Endereço</label>
+                                <textarea class="form-control" id="endereco" rows="2" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success">Enviar interesse</button>
+                        </form>
                     </div>
                 </div>
             </div>
