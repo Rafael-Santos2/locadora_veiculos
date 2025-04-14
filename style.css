@@ -1,0 +1,38 @@
+.action-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    justify-content: flex-start;
+}
+
+.btn-group-actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    
+}
+.delete-btn {
+    order: 1;
+}
+
+.rent-group {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    order: 2;
+}
+
+.days-input {
+    width: 60px !important;
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .action-wrapper {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .btn-group-actions {
+        flex-direction: column;
+    }
+}

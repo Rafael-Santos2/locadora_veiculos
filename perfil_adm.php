@@ -23,7 +23,7 @@
         <div class="row mb-4">
             <div class="col-md-12">
                 <div class="d-flex justify-content-between align-items-center inicio">
-                    <h1>Sistema de Locadora de Veículos</h1>
+                    <h2>Sistema de Locadora de Veículos</h2>
                     <div class="d-flex align-items-center gap-3 user-info mx-3">
                         <span class="user-icon">
                             <i class="bi bi-person-circle" style="font-size:24px;"></i>
@@ -153,10 +153,23 @@
                                             <div class="action-wrapper">
                                                 <form action="post" class="btn-group-actions">
 
-                                                <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                 <button class="btn btn-danger btn-sm" type="submit" name="deletar">
-                                                    Deletar
-                                                </button>
+                                                    <!-- Botão Deletar (sempre disponivel para o admin) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                        Deletar
+                                                    </button>
+
+                                                    <div class="rent-group">
+                                                        <!-- Veiculo alugado -->
+
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                            Devolver
+                                                        </button>
+                                                        <!-- Veiculo disponivel -->
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">
+                                                            Alugar
+                                                        </button>
+                                                    </div>
                                                 </form>
                                             </div>
                                         </td>
