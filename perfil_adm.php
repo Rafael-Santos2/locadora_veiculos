@@ -145,7 +145,7 @@
                                     <tr>
                                         <td>Carro</td>
                                         <td>Ford GT 2008</td>
-                                        <td>TAR4D20</td>
+                                        <td>OVI1N14</td>
                                         <td>
                                             <span class="badge bg-success">Disponível</span>
                                         </td>
@@ -174,7 +174,72 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td>Carro</td>
+                                        <td>Corsa Classic 2002</td>
+                                        <td>RAF1N15</td>
+                                        <td>
+                                            <span class="badge bg-warning">Alugado</span>
+                                        </td>
+                                        <td>
+                                            <div class="action-wrapper">
+                                                <form action="post" class="btn-group-actions">
+
+                                                    <!-- Botão Deletar (sempre disponivel para o admin) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                        Deletar
+                                                    </button>
+
+                                                    <div class="rent-group">
+                                                        <!-- Veiculo alugado -->
+
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                            Devolver
+                                                        </button>
+                                                        <!-- Veiculo disponivel -->
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">
+                                                            Alugar
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Moto</td>
+                                        <td>Hayabusa 2016</td>
+                                        <td>JUL1A20</td>
+                                        <td>
+                                            <span class="badge bg-warning">Alugado</span>
+                                        </td>
+                                        <td>
+                                            <div class="action-wrapper">
+                                                <form action="post" class="btn-group-actions">
+
+                                                    <!-- Botão Deletar (sempre disponivel para o admin) -->
+                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                        Deletar
+                                                    </button>
+
+                                                    <div class="rent-group">
+                                                        <!-- Veiculo alugado -->
+
+                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                            Devolver
+                                                        </button>
+                                                        <!-- Veiculo disponivel -->
+                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">
+                                                            Alugar
+                                                        </button>
+                                                    </div>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
