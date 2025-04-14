@@ -31,7 +31,7 @@ Aqui temos uma estrutura simples e funcional em **PHP** para controle de perfis 
 
 - 🔑 Acesso restrito por sessão
 - 👤 Redirecionamento baseado em perfil
-- 🔒 Proteção com `session_start()` e `isset()`
+- 🔒 (EM BREVE!! Proteção com `session_start()` e `isset()`)
 - 🧩 Código simples, direto ao ponto, pronto pra evoluir
 
 ---
@@ -40,7 +40,7 @@ Aqui temos uma estrutura simples e funcional em **PHP** para controle de perfis 
 
 - PHP 7+
 - HTML5
-- (🔜 Em breve: MySQL & Bootstrap)
+- (🔜 Em breve: MySQL ou JSON & Bootstrap)
 
 ---
 
