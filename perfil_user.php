@@ -245,27 +245,27 @@
                         <form>
                             <div class="mb-3">
                                 <label for="nome" class="form-label">Nome completo</label>
-                                <input type="text" class="form-control" id="nome" required>
+                                <input type="text" class="form-control" id="nome" required placeholder="Digite seu nome completo">
                             </div>
                             <div class="mb-3">
                                 <label for="numero" class="form-label">Número de telefone</label>
-                                <input type="tel" class="form-control" id="numero" required>
+                                <input type="tel" class="form-control" id="numero" required placeholder="Digite seu telefone">
                             </div>
                             <div class="mb-3">
                                 <label for="cpf" class="form-label">CPF</label>
-                                <input type="text" class="form-control" id="cpf" required>
+                                <input type="text" class="form-control" id="cpf" required placeholder="Digite seu CPF">
                             </div>
                             <div class="mb-3">
-                                <label for="rg" class="form-label">RG</label>
-                                <input type="text" class="form-control" id="rg" required>
+                                <label for="Data" class="form-label">Tempo de aluguel (em dias)</label>
+                                <input type="number" class="form-control" id="data" value="1" min="1" required>
                             </div>
                             <div class="mb-3">
                                 <label for="email" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="email" required>
+                                <input type="email" class="form-control" id="email" required placeholder="Digite seu e-mail">
                             </div>
                             <div class="mb-3">
                                 <label for="endereco" class="form-label">Endereço</label>
-                                <textarea class="form-control" id="endereco" rows="2" required></textarea>
+                                <textarea class="form-control" id="endereco" rows="2" required placeholder="Digite seu endereço"></textarea>
                             </div>
                             <button type="submit" class="btn btn-success">Enviar interesse</button>
                         </form>
