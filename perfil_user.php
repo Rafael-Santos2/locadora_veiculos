@@ -108,7 +108,7 @@
                                         <td>OVI1N14</td>
                                         <td>
                                             <span>
-                                                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modalDisponivelFordGT2008" style="padding: 2px;">Disponível</button>
+                                                <button class="btn btn-success btn-sm" data-bs-toggle="modal" data-bs-target="#modalDisponivelFordGT2008" style="padding: 2px;">Disponível</button>
                                             </span>
                                         </td>
                                     </tr>
