@@ -46,5 +46,5 @@ Aqui temos uma estrutura simples e funcional em **PHP** para controle de perfis 
 
 ## 💬 Contato
 
-Feito com 💙 por [Rafael Araujo Santos] ([https://github.com/seu-usuario](https://github.com/Rafael-Santos2))  
+Feito com 💙 por [Rafael Araujo Santos] ([(https://github.com/Rafael-Santos2)])  
 Se curtir, deixa um ⭐ no repositório!
